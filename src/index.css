@@ -226,37 +226,3 @@ html, body {
 
 
 
-.viewport-section3{
-  position:relative;
-  display: flex;
-  justify-content: flex-end; /* moves content (card) to the right */
-  align-items: center;       /* centers vertically */
-  padding-right: 250px; /* pushes the card away from the edge */
-/* fill the viewport */
-  min-height: 100vh;      /* full viewport height, but allows growth */
-  width: 100%;        /* expands across the entire viewport */
-  box-sizing: border-box;
-  background: linear-gradient(135deg, #c0ba16 0%, #0f662d  100%);
-
-
-
-}
-.photographyCard{
-  position:relative;
-  box-sizing: border-box;          /* include border in sizing */
-  background: rgb(255, 255, 255); /* optional background to make border clearer */
-
-  
-  top:-300px;
-  left:-375px;
-}
-.photographyTitle{
-  position:absolute;
-  top: -50px;
-  left: -250px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 55px;
-  border: 2px solid #c00;
-  padding: 8px 12px;  
-  background:rgb(216, 167, 7);
-}

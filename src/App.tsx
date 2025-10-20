@@ -3,7 +3,6 @@ import SocialsBar from './SocialsBar'
 import './index.css';
 import NamePlate from './NamePlate'
 import Intro from './Intro'
-import PhotographyPlate from './pagethree/PhotographyPlate'
 
 import PortfolioPlate from './pagetwo/PortfloioPlate'
 import TidyYup from './pagetwo/TidyYup'
@@ -26,11 +25,6 @@ function App() {
       
       
     </section>
-   {/* <section className = "viewport-section3">
-      <PhotographyPlate/>
-
-    </section>
-   */}
    </div>
   )
 }
