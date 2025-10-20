@@ -1,0 +1,262 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border: none;
+  outline: none;
+
+  background-color: rgba(100, 100, 89, 0.432); /* optional: match your background */
+}
+.scroll-container{
+
+
+}
+.viewport-section1{
+  position:relative;
+  display: flex;
+  justify-content: flex-end; /* moves content (card) to the right */
+  align-items: center;       /* centers vertically */
+  padding-right: 250px; /* pushes the card away from the edge */
+/* fill the viewport */
+  min-height: 100vh;      /* full viewport height, but allows growth */
+  width: 100%;        /* expands across the entire viewport */
+  box-sizing: border-box;
+  background: linear-gradient(135deg,  #c0ba16 0%, #0f662d  100%);
+
+
+
+}
+.nameTitle{
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+
+
+}
+.greeting{
+  position: absolute;
+  top: 145px;
+  left: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
+.introName{
+  position: absolute;
+  top: 175px;
+  left: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
+.introRole{
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
+.intro{
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+
+}
+.card{
+  position :relative;
+  top: -10px;
+  padding: 20px;
+  margin: 10px;
+  text-align:right;
+  max-width: 250px;
+  display: inline-block;
+  margin-top: 150px;
+  z-index: 1;
+  box-shadow:white;
+
+  box-sizing: border-box;          /* include border in sizing */
+  border: 10px solid rgba(0,128,64,0.95); /* change color/width as desired */
+  background: rgb(255, 255, 255); /* optional background to make border clearer */
+
+}
+
+.cardImage{
+  position : absolute;
+  top: -200px;
+  left: -100px;
+  width : 200px;
+  border-radius: 5%;
+  margin-bottom: 10px;
+  z-index: 2;
+
+}
+.petals{
+  position: absolute;
+  top: -350px;
+  left: -350px;
+
+  width: 700px;
+  z-index: 0;
+}
+.socialsBar{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 10px 100px; /*Padding adds space inside an element between content and border */
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(255, 249, 249, 0.2);
+
+  margin: 0;            /* in case it’s on a UL */
+  list-style: none;
+}
+.socialsBar a {
+  padding: 0 12px; /* left/right padding between links */
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none; /* remove default underline */
+
+}
+.socialsBar li {
+  display: flex;
+  align-items: center;
+  gap: 200px; /* increase/decrease to change spacing */
+}
+.linkedinImg{
+  max-width: 60px;
+
+}
+.githubImg{
+  max-width: 60px;
+
+}
+.resume{
+  font-size: 25px;
+  color:#e6de0c;
+
+}
+
+.viewport-section2{
+  position:relative;
+  display: flex;
+  justify-content: flex-end; /* moves content (card) to the right */
+  align-items: center;       /* centers vertically */
+  padding-right: 250px; /* pushes the card away from the edge */
+/* fill the viewport */
+  min-height: 100vh;      /* full viewport height, but allows growth */
+  width: 100%;        /* expands across the entire viewport */
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #c0ba16 0%, #0f662d  100%);
+
+
+
+}
+.portfolioCard{
+  position:absolute;
+  box-sizing: border-box;          /* include border in sizing */
+  background: rgb(255, 255, 255); /* optional background to make border clearer */
+
+  
+  right: 750px;
+  top: 85px;
+}
+.portfolioTitle{
+  position:absolute;
+  top: -50px;
+  left: -100px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 55px;
+  border: 2px solid #c00;
+  padding: 8px 12px;  
+  background:rgb(216, 167, 7);
+}
+.applicationBar{
+  position :absolute;
+
+  right: 50px;
+  top:180px;
+
+  background: linear-gradient(135deg,  #c0ba16 0%, #0f662d  100%);
+  padding: 12px 10px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(234, 230, 5, 0.442);
+
+  align-items:center;
+
+
+
+}
+.applicationBar a {
+  padding: 0 12px; /* left/right padding between links */
+  display: inline-flex;
+  align-items: center;
+}
+.applicationBar li {
+  display: flex;
+  align-items: center;
+  gap: 200px; /* increase/decrease to change spacing */
+}
+.tidyYupImg{
+  width: 300px;
+  border-radius: 10px;
+
+
+
+
+
+}
+.plusSign{
+  width: 300px;
+  border-radius: 10px;
+
+}
+.plusSign2{
+    width: 300px;
+  border-radius: 10px;
+
+
+}
+
+
+
+.viewport-section3{
+  position:relative;
+  display: flex;
+  justify-content: flex-end; /* moves content (card) to the right */
+  align-items: center;       /* centers vertically */
+  padding-right: 250px; /* pushes the card away from the edge */
+/* fill the viewport */
+  min-height: 100vh;      /* full viewport height, but allows growth */
+  width: 100%;        /* expands across the entire viewport */
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #c0ba16 0%, #0f662d  100%);
+
+
+
+}
+.photographyCard{
+  position:relative;
+  box-sizing: border-box;          /* include border in sizing */
+  background: rgb(255, 255, 255); /* optional background to make border clearer */
+
+  
+  top:-300px;
+  left:-375px;
+}
+.photographyTitle{
+  position:absolute;
+  top: -50px;
+  left: -250px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 55px;
+  border: 2px solid #c00;
+  padding: 8px 12px;  
+  background:rgb(216, 167, 7);
+}
